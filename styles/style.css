@@ -70,7 +70,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 165px 50px 50px 50px;
+    padding: 155px 50px 50px 50px;
     z-index: 0;
 }
 
@@ -87,9 +87,9 @@
 .cover__title {
     z-index: 2;
     color: white;
-    font-size: 64.5px;
+    font-size: 66px;
     font-weight: bold;
-    line-height: 200%;
+    line-height: 205%;
     text-transform: uppercase;
     padding: 0;
 }
@@ -101,22 +101,24 @@
 .aligned-text_left {
     display: block;
     text-align: start;
-    letter-spacing: px;
+    letter-spacing: 31px;
 }
 
 .aligned-text_center {
     display: block;
     text-align: center;
-    letter-spacing: 25px;
+    letter-spacing: 31px;
+    padding-left: 35px;
 }
 
 .aligned-text_right {
     display: block;
     text-align: end;
+    letter-spacing: 31px;
 }
 
 .xyeta {
-    letter-spacing: o;
+    letter-spacing: 0;
 }
 
 /* тут выравниваю подпись подзаголовка  */
