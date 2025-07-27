@@ -98,6 +98,8 @@
     display: block;
 }
 
+/*подгонка заголовка h1*/
+
 .aligned-text_left {
     display: block;
     text-align: start;
@@ -117,7 +119,9 @@
     letter-spacing: 31px;
 }
 
-.xyeta {
+/*чтобы не было лишенго отступа h1*/
+
+.aligned-text_right-no-letter-spacing {
     letter-spacing: 0;
 }
 
@@ -128,6 +132,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+    margin-top: -10px;
 }
 /* стили для кнопки и подзаголовка */
 
@@ -136,19 +141,25 @@
     font-size: 22px;
     font-weight: normal;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 19px;
 }
 
 /*дальше внопка через тег кнопки с отсутствующим фоном и сплоншным белым бордером. 
 фон по заданию через transparent, но если сделать none, то будет то же самеое*/
 
 .bet-button {
-    size: 256px 51px;
-    padding: 12px 32px 11px 31px;
-    border-style: inherit;
+    display: block;
+    padding: 11px 31px;
     background: transparent;
-    border-style: solid;
+    border: 1px solid red;
     border-color: white;
+}
+
+.cover__description-text-button {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
                 /*начинаю форомлять карточки*/
