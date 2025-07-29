@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /*для плавности перехода по якорным ссылкам задается для ввсего html через "*" */
+  scroll-behavior: smooth;
 }
 
 body {
